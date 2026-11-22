@@ -1,0 +1,8 @@
+﻿复现代码仓库地址
+https://github.com/ZhaoMu312/Project_Reproduction
+
+说明：
+- 仓库为 public，可直接访问
+- 本地同时保留了一份完整代码与结果（见本压缩包同级目录）
+- 环境依赖见 requirements.txt；运行方式见 README.md
+- 权重 yolov10n.pt 因体积未纳入仓库，运行前需从 HuggingFace 镜像获取（见 B2_下载COCO图.py）

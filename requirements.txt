@@ -1,0 +1,21 @@
+# YOLOv10 推理依赖
+# 说明：torch/torchvision 需装 GPU 版本，见下方注释；直接 pip install 会装成 CPU 版
+ultralytics==8.4.190
+torch==2.12.1
+torchvision==0.27.1
+numpy>=2.0.2
+pandas>=3.1.0
+polars>=0.20.0
+opencv-python
+pillow
+pyyaml
+requests
+scipy
+matplotlib
+tqdm
+psutil
+ultralytics-thop>=2.2.3
+py-cpuinfo
+
+# GPU 版 torch 安装命令（Blackwell 架构需 cu128 以上）：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
